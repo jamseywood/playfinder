@@ -5,6 +5,7 @@
     width: 100%;
     max-width: 100%;
     padding-top: 25px;
+    font-family: "Frank New",sans-serif;
 
     td, th {
         padding: 18px 24px;
@@ -20,6 +21,28 @@
     }
 
     thead {
-        font-weight: bold;
+        th  {
+            color: #dedede;
+            font-family: "Frank New",sans-serif;
+            font-weight: bold;
+        }
+        background-color: #2f285a;
     }
+}
+
+ngb-pagination ::ng-deep a {
+  color: black !important;
+}
+
+ngb-pagination ::ng-deep .page-item.active .page-link {
+  border-color: black;
+  background-color: lightgrey;
+}
+
+ngb-pagination ::ng-deep .page-item.active .page-link:focus, .page-link:not(:disabled):not(.disabled):active:focus {
+  box-shadow: 0 0 0 0.1rem dimgrey;
+}
+
+ngb-pagination ::ng-deep .page-link:not(:disabled):not(.disabled):active:focus {
+  box-shadow: 0 0 0 0.1rem dimgrey;
 }

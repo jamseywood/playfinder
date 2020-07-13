@@ -1,0 +1,12 @@
+.text-center {
+    padding-bottom: 25px;
+}
+
+.btn.btn-primary:disabled{
+    background-color: grey;
+}
+
+.btn.btn-primary:enabled{
+    background-color: #2f285a;
+    color: #56E07B;
+}
